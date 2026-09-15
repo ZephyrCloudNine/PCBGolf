@@ -12320,7 +12320,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 245.11 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14039,7 +14039,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 214.63 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -14132,7 +14132,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 327.66 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14303,7 +14303,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 245.11 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -15083,7 +15083,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 245.11 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15347,7 +15347,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 245.11 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17060,7 +17060,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 327.66 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17684,7 +17684,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 297.18 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -18119,7 +18119,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 327.66 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -18554,7 +18554,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 297.18 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -18908,7 +18908,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 327.66 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -19856,7 +19856,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 297.18 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -20714,7 +20714,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 214.63 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -22343,7 +22343,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 214.63 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -22937,7 +22937,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 297.18 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -23459,7 +23459,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-R"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 214.63 214.63 0)
 			(hide yes)
 			(show_name no)
