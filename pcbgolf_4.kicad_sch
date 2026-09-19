@@ -5520,7 +5520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
 			(at 215.9 1.27 0)
 			(hide yes)
 			(show_name no)
@@ -6567,7 +6567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
 			(at 215.9 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7636,7 +7636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
 			(at 215.9 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10299,7 +10299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
 			(at 215.9 115.57 0)
 			(hide yes)
 			(show_name no)
