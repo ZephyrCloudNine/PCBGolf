@@ -4592,7 +4592,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:DO-214AA(SMB)"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 58.42 55.88 0)
 			(hide yes)
 			(show_name no)

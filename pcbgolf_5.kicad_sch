@@ -12446,7 +12446,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNNE"
+		(property "MPN" ""
 			(at 22.86 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -19034,7 +19034,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNNE"
+		(property "MPN" ""
 			(at 22.86 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -19703,7 +19703,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNNE"
+		(property "MPN" ""
 			(at 22.86 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -20312,7 +20312,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNNE"
+		(property "MPN" ""
 			(at 22.86 49.53 0)
 			(hide yes)
 			(show_name no)
