@@ -517,7 +517,12 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "+12V": "rgb(255, 0, 50)",
+      "+3V3": "rgb(105, 255, 0)",
+      "+5V": "rgb(255, 0, 201)",
+      "GND": "rgb(0, 31, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -703,7 +708,7 @@
         "uuid": "4ad19786-2fb8-46fb-8362-af47f4d986ee"
       }
     ],
-    "used_designators": "SW1",
+    "used_designators": "J9,R32,R126-133,U17,#GND52,#GND57,SW1",
     "variants": []
   },
   "sheets": [
