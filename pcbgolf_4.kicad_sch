@@ -5,6 +5,201 @@
 	(uuid "3dd848dd-20c1-4538-b9e1-dea1a629889b")
 	(paper "User" 297.0022 223.9264)
 	(lib_symbols
+		(symbol "Amplifier_Operational:OPA197xDBV"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -1.27 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA197xDBV"
+				(at -1.27 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa197.pdf"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "single opamp rtor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "OPA197xDBV_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA197xDBV_1_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "pcbgolf:+12V"
 			(power global)
 			(pin_numbers
@@ -412,196 +607,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "pcbgolf:NCS20071XV"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NCS20071XV"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 1.27 30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
-				(at 1.27 30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "OpAmp Rail-to-rail Output Single vfa"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?553*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "NCS20071XV_1_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5178,6 +5183,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA197xDBV")
+		(at 214.63 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0eb5f47a-81f7-42c0-8f12-77942c3144a4")
+		(property "Reference" "U17"
+			(at 220.726 25.146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA197xDBV"
+			(at 220.726 27.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 212.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa197.pdf"
+			(at 214.63 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOT-23"
+			(at 214.63 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "ff699292-43ff-4949-bc51-4c368b233925")
+		)
+		(pin "2"
+			(uuid "222de30a-e793-481c-99ed-c361ca303e55")
+		)
+		(pin "5"
+			(uuid "012239ec-f8c1-4635-a35b-dbd853463fdb")
+		)
+		(pin "1"
+			(uuid "05671722-ea89-4716-a632-031b999509fd")
+		)
+		(pin "3"
+			(uuid "6aab4f98-ab0d-43d1-8f86-b77cb632ebf1")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_GND")
 		(at 212.09 158.75 0)
 		(unit 1)
@@ -5484,105 +5578,6 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "#GND080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:NCS20071XV")
-		(at 214.63 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "220f12d8-c8cb-46a0-bd5b-0937aab47885")
-		(property "Reference" "U9"
-			(at 219.964 24.384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCS20071XV"
-			(at 219.964 26.924 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
-			(at 215.9 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
-			(at 215.9 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
-			(at 214.63 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "NCS20071SN2T1G"
-			(at 214.63 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "13e2a791-8ff4-415a-aa8e-cec1373de3f4")
-		)
-		(pin "3"
-			(uuid "ec10924e-2046-4831-b436-ea6eaf4fe80e")
-		)
-		(pin "2"
-			(uuid "d8923421-de10-4e69-b98a-0a1252f924fb")
-		)
-		(pin "1"
-			(uuid "8e93b030-6333-490e-89c6-939db420b885")
-		)
-		(pin "5"
-			(uuid "1795e2f6-bef0-4f74-bf3d-4541f5133e69")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -6531,105 +6526,6 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:NCS20071XV")
-		(at 214.63 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4cc3113a-1d45-4f00-a401-732e5301a5cd")
-		(property "Reference" "U11"
-			(at 219.964 100.584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCS20071XV"
-			(at 219.964 103.124 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
-			(at 215.9 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
-			(at 215.9 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
-			(at 214.63 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "NCS20071SN2T1G"
-			(at 214.63 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "8f129b3b-898b-4ae1-9882-c838bb42b395")
-		)
-		(pin "3"
-			(uuid "7390fb14-1ae0-4546-9245-a381f5457068")
-		)
-		(pin "2"
-			(uuid "5fd9be33-1ca0-4c10-a753-7e4126da3544")
-		)
-		(pin "1"
-			(uuid "9878d2bf-2512-483c-97fd-844968cbc349")
-		)
-		(pin "5"
-			(uuid "44a54b71-a6d4-4dbd-b02f-4a41655b6ddb")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -7600,105 +7496,6 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "#GND062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:NCS20071XV")
-		(at 214.63 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "64373cce-58a8-483d-8973-13139e001456")
-		(property "Reference" "U10"
-			(at 219.964 62.484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCS20071XV"
-			(at 219.964 65.024 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
-			(at 215.9 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
-			(at 215.9 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
-			(at 214.63 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "NCS20071SN2T1G"
-			(at 214.63 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "a5f76715-0f6d-43db-8eee-913a8886c381")
-		)
-		(pin "3"
-			(uuid "0da7f938-1737-4721-8233-c01e75009a44")
-		)
-		(pin "2"
-			(uuid "ef015d0f-6045-4e10-99d8-efae7bcf68ca")
-		)
-		(pin "1"
-			(uuid "7661af4d-19ce-4056-8672-218d823cbfc8")
-		)
-		(pin "5"
-			(uuid "2f39e752-9b62-4ec0-9bb1-c1c394b2a8da")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -9620,6 +9417,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA197xDBV")
+		(at 214.63 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9084a0d7-7c9b-4689-bae9-ccfa8880f9ec")
+		(property "Reference" "U20"
+			(at 220.726 139.446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA197xDBV"
+			(at 220.726 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 212.09 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa197.pdf"
+			(at 214.63 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOT-23"
+			(at 214.63 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "6a91bbcf-4fe9-43d0-b11f-9391ad8674ac")
+		)
+		(pin "2"
+			(uuid "d141843d-926e-4217-8d0e-c9c37c1a8f5f")
+		)
+		(pin "5"
+			(uuid "27d3c335-50ef-485e-a1e1-b0f72ba4b768")
+		)
+		(pin "1"
+			(uuid "57b58ce7-6816-4002-8d92-31b7cd08fca1")
+		)
+		(pin "3"
+			(uuid "0f9ce566-ed2d-4948-af99-43c20e7f3c1f")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 195.58 76.2 180)
 		(unit 1)
@@ -10269,105 +10155,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:NCS20071XV")
-		(at 214.63 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9e576fbe-7df5-4042-bc80-8ba63217e981")
-		(property "Reference" "U12"
-			(at 219.964 138.684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCS20071XV"
-			(at 219.964 141.224 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
-			(at 215.9 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
-			(at 215.9 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
-			(at 214.63 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "NCS20071SN2T1G"
-			(at 214.63 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "1611f54b-442f-4aa8-bcc1-309104fd228b")
-		)
-		(pin "3"
-			(uuid "1514dcca-ebd7-42c1-98f0-1e550b6774be")
-		)
-		(pin "2"
-			(uuid "6d3c6273-91d7-406c-924f-0d9fafc2dd13")
-		)
-		(pin "1"
-			(uuid "5a114dfa-369f-4075-8d50-0fe02b4cc666")
-		)
-		(pin "5"
-			(uuid "c374e574-264f-4e07-ac29-3b3321b45bea")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:+5V")
 		(at 52.07 24.13 0)
 		(unit 1)
@@ -10883,6 +10670,95 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA197xDBV")
+		(at 214.63 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad797099-53ec-4222-9532-51decf8e613e")
+		(property "Reference" "U19"
+			(at 220.726 101.346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA197xDBV"
+			(at 220.726 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 212.09 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa197.pdf"
+			(at 214.63 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOT-23"
+			(at 214.63 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "353a208c-8722-4f23-8d53-98aa95297396")
+		)
+		(pin "2"
+			(uuid "5cf22e46-3a77-434b-9109-1f3f3c3da62b")
+		)
+		(pin "5"
+			(uuid "8de2c4ff-79ff-4a30-9934-b7355eac3d3d")
+		)
+		(pin "1"
+			(uuid "818373fd-9cb1-4fc7-a59a-800f77c5b1eb")
+		)
+		(pin "3"
+			(uuid "68d8ff9b-57db-49e7-aea0-2ded642bcd34")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -12157,6 +12033,95 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA197xDBV")
+		(at 214.63 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d313abcc-f243-4b06-ae09-531de7cb52b3")
+		(property "Reference" "U18"
+			(at 220.726 63.246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA197xDBV"
+			(at 220.726 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 212.09 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa197.pdf"
+			(at 214.63 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOT-23"
+			(at 214.63 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "6f742843-6f68-4db6-b0c3-36fb236c1bf7")
+		)
+		(pin "2"
+			(uuid "9109f3c4-e5b4-4b5d-815a-1bcd43c5086a")
+		)
+		(pin "5"
+			(uuid "206a9ed0-d990-4c37-b260-9a1be832fedf")
+		)
+		(pin "1"
+			(uuid "77cb1501-f9d4-4a2c-afce-efc3b103d049")
+		)
+		(pin "3"
+			(uuid "c14272e4-029b-43c2-9842-b050bcacd877")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
+					(reference "U18")
 					(unit 1)
 				)
 			)
