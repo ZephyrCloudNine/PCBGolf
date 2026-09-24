@@ -4105,13 +4105,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 73.66) (xy 247.65 73.66)
+			(xy 237.49 73.66) (xy 250.19 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f0f6602-9140-475b-bdfb-b5ca3dfc21b5")
+		(uuid "3e5203b7-15e1-4345-90d5-961ee4394b2b")
 	)
 	(wire
 		(pts
@@ -4255,16 +4255,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 66.04) (xy 247.65 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5454d9c3-2f6f-48c0-b9d1-8055331d957f")
-	)
-	(wire
-		(pts
 			(xy 226.06 55.88) (xy 226.06 68.58)
 		)
 		(stroke
@@ -4342,16 +4332,6 @@
 			(type solid)
 		)
 		(uuid "63dc93f3-ebce-4f2c-90d9-562630acc7a0")
-	)
-	(wire
-		(pts
-			(xy 250.19 71.12) (xy 247.65 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "646d828d-e1ce-4460-b57a-b7ab63876149")
 	)
 	(wire
 		(pts
@@ -4472,6 +4452,16 @@
 			(type solid)
 		)
 		(uuid "791400cc-ee1a-4a67-aaf8-7ddd65a39fdc")
+	)
+	(wire
+		(pts
+			(xy 237.49 68.58) (xy 250.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7baeee7e-7314-45e7-8f6b-833c2748cc1a")
 	)
 	(wire
 		(pts
@@ -4935,16 +4925,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 63.5) (xy 247.65 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bda247fc-780a-4675-92ef-2eec542331e4")
-	)
-	(wire
-		(pts
 			(xy 243.84 130.81) (xy 243.84 129.54)
 		)
 		(stroke
@@ -4972,6 +4952,16 @@
 			(type solid)
 		)
 		(uuid "c0f17f27-ac00-4aea-b787-84adcc6e1429")
+	)
+	(wire
+		(pts
+			(xy 237.49 66.04) (xy 250.19 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c339265b-8aa4-4800-899f-520a3e2a9838")
 	)
 	(wire
 		(pts
@@ -5025,7 +5015,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 60.96) (xy 237.49 60.96)
+			(xy 210.82 60.96) (xy 247.65 60.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -5092,6 +5082,16 @@
 			(type default)
 		)
 		(uuid "d3fc66f7-dec6-4cbc-95c9-47e83ea49deb")
+	)
+	(wire
+		(pts
+			(xy 237.49 71.12) (xy 250.19 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68f48e6-2667-4b5b-a3f9-06f552e56902")
 	)
 	(wire
 		(pts
@@ -5285,16 +5285,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 68.58) (xy 247.65 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9e03c49-d57d-43cd-a732-7944f2461a84")
-	)
-	(wire
-		(pts
 			(xy 224.79 140.97) (xy 224.79 143.51)
 		)
 		(stroke
@@ -5302,6 +5292,16 @@
 			(type default)
 		)
 		(uuid "fb141143-61af-4244-a6a3-68d7dfa6e7c8")
+	)
+	(wire
+		(pts
+			(xy 237.49 63.5) (xy 250.19 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3191c2-015b-411c-93cd-c5d549d1e566")
 	)
 	(wire
 		(pts
@@ -7004,99 +7004,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 242.57 60.96 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3bab63f4-9afe-4477-866a-ec59127a7869")
-		(property "Reference" "R38"
-			(at 233.934 60.7314 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0R"
-			(at 245.11 60.706 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 242.57 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RMCF0402ZT0R00"
-			(at 242.57 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "6922e9bc-4370-49d8-852b-74aa20708855")
-		)
-		(pin "2"
-			(uuid "6512efa6-97c9-43fe-b34d-e36b78cad62b")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/83cc2e2c-c1d0-4daa-9355-c468f3408cc2"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_GND")
 		(at 93.98 160.02 0)
 		(unit 1)
@@ -7916,99 +7823,6 @@
 			(project "pcbgolf"
 				(path "/83cc2e2c-c1d0-4daa-9355-c468f3408cc2"
 					(reference "#GND037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 242.57 68.58 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "69fb63b6-360a-46ef-8ea0-184561f0ef1b")
-		(property "Reference" "R41"
-			(at 233.934 68.3514 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0R"
-			(at 245.11 68.326 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 242.57 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RMCF0402ZT0R00"
-			(at 242.57 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "7fd66900-4f6e-4e56-b885-6fd7773270d5")
-		)
-		(pin "2"
-			(uuid "cd1afcd8-e8f4-41e8-9e34-9c405de9e5f6")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/83cc2e2c-c1d0-4daa-9355-c468f3408cc2"
-					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -9042,99 +8856,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 242.57 73.66 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9da7c858-4207-49cd-b0f1-8b35f64750fb")
-		(property "Reference" "R43"
-			(at 233.934 73.4314 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0R"
-			(at 245.11 73.406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 242.57 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RMCF0402ZT0R00"
-			(at 242.57 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "8d46ff83-9f82-4aa5-a27c-237284ce99e5")
-		)
-		(pin "2"
-			(uuid "5244627f-be8d-41da-b435-3f2078d73624")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/83cc2e2c-c1d0-4daa-9355-c468f3408cc2"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_GND")
 		(at 190.5 88.9 0)
 		(unit 1)
@@ -9897,99 +9618,6 @@
 			(project "pcbgolf"
 				(path "/83cc2e2c-c1d0-4daa-9355-c468f3408cc2"
 					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 242.57 71.12 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "be5b911e-7d24-4e9f-94cc-56790463c6fd")
-		(property "Reference" "R42"
-			(at 233.934 70.8914 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0R"
-			(at 245.11 70.866 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 242.57 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RMCF0402ZT0R00"
-			(at 242.57 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "46a0f8f6-bd12-4741-aefd-4c6937dca8c5")
-		)
-		(pin "2"
-			(uuid "fceef0ad-2afc-423d-87b1-7a3d91994318")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/83cc2e2c-c1d0-4daa-9355-c468f3408cc2"
-					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -10876,192 +10504,6 @@
 			(project "pcbgolf"
 				(path "/83cc2e2c-c1d0-4daa-9355-c468f3408cc2"
 					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 242.57 66.04 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ee3c1e0e-a9aa-4e2b-b405-044231553636")
-		(property "Reference" "R40"
-			(at 233.934 65.8114 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0R"
-			(at 245.11 65.786 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 242.57 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RMCF0402ZT0R00"
-			(at 242.57 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "c5281643-eff1-46ec-81a8-1d98e1d67b07")
-		)
-		(pin "2"
-			(uuid "aeafe68e-10d9-46d1-8b6b-74f771ad4be2")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/83cc2e2c-c1d0-4daa-9355-c468f3408cc2"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 242.57 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f180ffb8-3ff7-4488-ba1a-d06098e7e223")
-		(property "Reference" "R39"
-			(at 233.934 63.2714 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0R"
-			(at 245.11 63.246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 242.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RMCF0402ZT0R00"
-			(at 242.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "ee2fb8bd-0e38-4367-95c3-e99484f5ce08")
-		)
-		(pin "2"
-			(uuid "f740b6ed-e724-41ce-b6a8-2dad0710ebdb")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/83cc2e2c-c1d0-4daa-9355-c468f3408cc2"
-					(reference "R39")
 					(unit 1)
 				)
 			)
